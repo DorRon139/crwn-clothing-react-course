@@ -1,10 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navigation from "./routes/navigation/navigation.js";
-import Home from "./routes/home/home.js";
-import Authentication from "./routes/authentication/authentication.js";
-import Shop from "./routes/shop/shop.js";
-import Checkout from "./routes/check-out/check-out.js";
+import Navigation from "./routes/navigation/navigation";
+import Home from "./routes/home/home";
+import Authentication from "./routes/authentication/authentication";
+import Shop from "./routes/shop/shop";
+import Checkout from "./routes/check-out/check-out";
 
 const App = () => {
   return (
